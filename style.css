@@ -1,0 +1,97 @@
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+}
+
+body {
+  background-color: #e9ebec;
+  padding: 0;
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2 {
+  font-size: 1.4em;
+  text-align: center;
+  margin: 0 0 10px;
+  color: #be0000;
+}
+
+.example-1 {
+  padding: 60px 15px;
+  background-color: #fce3e4;
+}
+.example-1 a {
+  text-align: center;
+  display: block;
+  background-color: #fcd2d3;
+}
+
+.example-2 {
+  padding: 60px 15px;
+  background-color: #d4ffd8;
+  text-align: center;
+}
+.example-2 a {
+  background-color: #aeebb3;
+}
+
+.example-3 {
+  padding: 60px 15px;
+  background-color: #ebedff;
+}
+.example-3 a {
+  background-color: #d1d3e8;
+  display: table;
+  margin: 0 auto;
+}
+
+.example-4 {
+  padding: 60px 15px;
+  background-color: #ffedff;
+}
+.example-4 p {
+  text-align: center;
+}
+.example-4 p a {
+  background-color: #ebddeb;
+}
+
+.example-5 {
+  padding: 60px 15px;
+  background-color: #fffbdb;
+  position: relative;
+}
+.example-5 a {
+  position: absolute;
+  left: 50%;
+  top: 60%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.example-6 {
+  padding: 60px 15px;
+  background-color: #d1ffdd;
+  background-image: url("https://shihabiiuc.com/wp-content/uploads/2023/03/axis.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  min-height: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.example-6 a {
+  background-color: rgba(179, 227, 192, 0.3);
+}/*# sourceMappingURL=style.css.map */
